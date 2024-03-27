@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serverless Web App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Serverless Web App</h1>
+  <div id="message"></div>
+  <form id="itemForm">
+    <input type="text" id="itemName" placeholder="Item Name" required>
+    <button type="submit">Add Item</button>
+  </form>
+  <ul id="itemList"></ul>
+</div>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.885.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
